@@ -1,0 +1,29 @@
+{
+  "name": "hangedweb",
+  "version": "1.0.0",
+  "description": "Examen Final Programacion Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sass3r/HangedWeb.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Rafael Ramirez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sass3r/HangedWeb/issues"
+  },
+  "homepage": "https://github.com/sass3r/HangedWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "nunjucks": "^3.2.2"
+  }
+}
