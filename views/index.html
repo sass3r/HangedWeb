@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div>
+      <p id="frase"></p>
+    </div>
+    <div class="jugada">
+      <label for="entrada">Adivina la letra:</label>
+      <input id="entrada" type="text">
+      <button id="boton">Adivinar</button>
+    </div>
+    <div class="jugador" id="player">
+      <label for="nombre">Nombre Jugador:</label>
+      <input id="nombre" type="text">
+      <button id="botonPlayer">Guardar</button>
+    </div>
+    <div class="score" id="puntuacion">
+      <strong>Tabla de Puntuacion</strong>
+      <table id="tabla">
+        <tr>
+          <td>Nombre</td>
+          <td>Puntos</td>
+        </tr>
+      </table>
+    </div>
+    <div class="time">
+      <strong>Tiempo transcurrido</strong>
+      <span id="minutos">00</span>
+      <span>:</span>
+      <span id="segundos">00</span>
+    </div>
+    <script src="script/ahorcado.js"></script>
+  </body>
+</html>
